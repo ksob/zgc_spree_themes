@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem 'spree', '~> 4.2'
+gem "spree", "~> 4.2.0"
 gem 'spree_auth_devise', '~> 4.3'
 gem "rubyzip", "~> 1.2.1"
 gem "state_machine", "~> 1.2.0"
