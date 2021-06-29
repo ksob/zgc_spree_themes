@@ -30,7 +30,7 @@ module SpreeThemes
       def load_default_theme
         puts 'Loading and applying default spree theme...'
 
-        filepath = "#{ ::SpreeThemes::Engine.root }/lib/generators/themes/default.zip"
+        filepath = "#{ SpreeThemes::Engine.root }/lib/generators/themes/default.zip"
 
         # creating theme object.
         theme = Spree::Theme.new(state: 'drafted', name: 'default')
