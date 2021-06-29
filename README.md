@@ -1,4 +1,4 @@
-VinsolSpreeThemes
+zgcSpreeThemes
 ==================
 
 This extension allows the admin to upload new spree store themes from backend. This extension provides an interface where admin can manage all the themes by editing them, deleting old themes and publishing theme to store for the users.
@@ -7,48 +7,48 @@ Admin can even preview the theme after modifying it from the backend before publ
 
 Try Spree Themes for Spree 3-4 with direct deployment on Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vinsol-spree-contrib/spree-demo-heroku/tree/spree-themes-new)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-themes-new)
 
 ### Steps to Publish a Theme.
-Go to - https://github.com/vinsol-spree-contrib/spree_themes/wiki/Steps-to-Publish-a-Theme
+Go to - https://github.com/zgc-spree-contrib/spree_themes/wiki/Steps-to-Publish-a-Theme
 
 
 Try Spree Themes with direct deployment on Heroku:
 
 | Theme Name      | Deploy Button |   Theme Download Link |
 | --------------- | ------------- | --------------------- |
-| Big Shop        | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vinsol-spree-contrib/spree-demo-heroku/tree/spree-theme-bigshop)   | https://github.com/vinsol-spree-contrib/theme-BigShop/archive/3-3-stable.zip      |
-| Classic White   | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vinsol-spree-contrib/spree-demo-heroku/tree/spree-classic-white)   | https://github.com/vinsol-spree-contrib/theme-ClassicWhite/archive/3-3-bump.zip |
-| Lattice         | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vinsol-spree-contrib/spree-demo-heroku/tree/spree-theme-lattice)   | https://github.com/vinsol-spree-contrib/theme-LatticeTheme/archive/3-3-stable.zip |
-| Crown           | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vinsol-spree-contrib/spree-demo-heroku/tree/spree-theme-crown)     | https://github.com/vinsol-spree-contrib/theme-CrownTheme/archive/3-3-bump.zip   |
-| Online Store    | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vinsol-spree-contrib/spree-demo-heroku/tree/spree-theme-online)    | https://github.com/vinsol-spree-contrib/theme-OnlineStore/archive/3-3-bump.zip  |
-| Unite           | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vinsol-spree-contrib/spree-demo-heroku/tree/spree-theme-unite)     | https://github.com/vinsol-spree-contrib/theme-Unite/archive/3-3-bump.zip        |
-| Matrix          | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vinsol-spree-contrib/spree-demo-heroku/tree/spree-theme-matrix)    | https://github.com/vinsol-spree-contrib/theme-Matrix/archive/3-3-bump.zip       |
-| Crown Theme 2    | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vinsol-spree-contrib/spree-demo-heroku/tree/spree-theme-crown-2)   | https://github.com/vinsol-spree-contrib/theme-CrownTheme-2/archive/3-3-bump.zip |
-| Shopkeeper Theme | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vinsol-spree-contrib/spree-demo-heroku/tree/spree-theme-shopkeeper) | https://github.com/vinsol-spree-contrib/theme-Shopkeeper/archive/3-3-bump.zip |
-| Scrollex Theme   | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vinsol-spree-contrib/spree-demo-heroku/tree/spree-theme-scrollex)   | https://github.com/vinsol-spree-contrib/theme-ScrollexTheme/archive/3-3-bump.zip |
-| EStore Theme     | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vinsol-spree-contrib/spree-demo-heroku/tree/spree-theme-estore)     | https://github.com/vinsol-spree-contrib/theme-EStore/archive/3-3-stable.zip |
+| Big Shop        | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-bigshop)   | https://github.com/zgc-spree-contrib/theme-BigShop/archive/3-3-stable.zip      |
+| Classic White   | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-classic-white)   | https://github.com/zgc-spree-contrib/theme-ClassicWhite/archive/3-3-bump.zip |
+| Lattice         | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-lattice)   | https://github.com/zgc-spree-contrib/theme-LatticeTheme/archive/3-3-stable.zip |
+| Crown           | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-crown)     | https://github.com/zgc-spree-contrib/theme-CrownTheme/archive/3-3-bump.zip   |
+| Online Store    | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-online)    | https://github.com/zgc-spree-contrib/theme-OnlineStore/archive/3-3-bump.zip  |
+| Unite           | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-unite)     | https://github.com/zgc-spree-contrib/theme-Unite/archive/3-3-bump.zip        |
+| Matrix          | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-matrix)    | https://github.com/zgc-spree-contrib/theme-Matrix/archive/3-3-bump.zip       |
+| Crown Theme 2    | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-crown-2)   | https://github.com/zgc-spree-contrib/theme-CrownTheme-2/archive/3-3-bump.zip |
+| Shopkeeper Theme | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-shopkeeper) | https://github.com/zgc-spree-contrib/theme-Shopkeeper/archive/3-3-bump.zip |
+| Scrollex Theme   | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-scrollex)   | https://github.com/zgc-spree-contrib/theme-ScrollexTheme/archive/3-3-bump.zip |
+| EStore Theme     | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-estore)     | https://github.com/zgc-spree-contrib/theme-EStore/archive/3-3-stable.zip |
 
 
 ### Download Sample Themes:
 
 For SPREE 3.2
 
-https://github.com/vinsol-spree-contrib/theme-BigShop/archive/3-2-stable.zip
+https://github.com/zgc-spree-contrib/theme-BigShop/archive/3-2-stable.zip
 
-https://github.com/vinsol-spree-contrib/theme-ClassicWhite/archive/3-2-stable.zip
+https://github.com/zgc-spree-contrib/theme-ClassicWhite/archive/3-2-stable.zip
 
-https://github.com/vinsol-spree-contrib/theme-OnlineStore/archive/3-2-stable.zip
+https://github.com/zgc-spree-contrib/theme-OnlineStore/archive/3-2-stable.zip
 
-https://github.com/vinsol-spree-contrib/theme-CrownTheme/archive/3-2-stable.zip
+https://github.com/zgc-spree-contrib/theme-CrownTheme/archive/3-2-stable.zip
 
-https://github.com/vinsol-spree-contrib/theme-LatticeTheme/archive/3-2-stable.zip
+https://github.com/zgc-spree-contrib/theme-LatticeTheme/archive/3-2-stable.zip
 
-https://github.com/vinsol-spree-contrib/theme-Matrix/archive/3-2-stable.zip
+https://github.com/zgc-spree-contrib/theme-Matrix/archive/3-2-stable.zip
 
-https://github.com/vinsol-spree-contrib/theme-Unite/archive/3-2-stable.zip
+https://github.com/zgc-spree-contrib/theme-Unite/archive/3-2-stable.zip
 
-https://github.com/vinsol-spree-contrib/theme-CrownTheme-2/archive/3-2-stable.zip
+https://github.com/zgc-spree-contrib/theme-CrownTheme-2/archive/3-2-stable.zip
 
 ## Requirements
 
@@ -74,19 +74,19 @@ Some of the current functionalities are:-
 For SPREE 3.4
 
   ```ruby
-  gem 'vinsol_spree_themes', github: 'vinsol-spree-contrib/spree_themes', branch: 'master'
+  gem 'spree_themes', github: 'zgc-spree-contrib/spree_themes', branch: 'master'
   ```
 
 For SPREE 3.3
 
   ```ruby
-  gem 'vinsol_spree_themes', github: 'vinsol-spree-contrib/spree_themes', branch: '3-3-stable'
+  gem 'spree_themes', github: 'zgc-spree-contrib/spree_themes', branch: '3-3-stable'
   ```
 
 For SPREE 3.2
 
   ```ruby
-  gem 'vinsol_spree_themes', github: 'vinsol-spree-contrib/spree_themes', branch: '3-2-stable'
+  gem 'spree_themes', github: 'zgc-spree-contrib/spree_themes', branch: '3-2-stable'
   ```
 
   *Note:- Add this gem at the end of your gemfile as it has some sprocket-rails dependency and needs to be loaded after all gems are loaded.*
@@ -105,7 +105,7 @@ For SPREE 3.2
 
 4. Copy & run migrations
   ```ruby
-  bundle exec rails g vinsol_spree_themes:install
+  bundle exec rails g spree_themes:install
   ```
 
 5. Restart your server
@@ -123,7 +123,7 @@ Make sure to set the following config in environment file `development.rb`.
 `config.assets.debug = false`
 
 
-After installing the extension, admin will see a tab `vinsol spree themes` on left sidebar of admin panel. Or you can visit the link
+After installing the extension, admin will see a tab `zgc spree themes` on left sidebar of admin panel. Or you can visit the link
 
 ```
  http://localhost:3000/admin/themes
@@ -144,8 +144,8 @@ Besides preview and publishing, admin can delete the uploaded theme or download 
 
 Some spree store themes can be cloned from the following link:-
 
-1. https://github.com/vinsol-spree-contrib/theme-ClassicWhite.git
-2. https://github.com/vinsol-spree-contrib/theme-BigShop.git
+1. https://github.com/zgc-spree-contrib/theme-ClassicWhite.git
+2. https://github.com/zgc-spree-contrib/theme-BigShop.git
 
 After clonning, zip the files of the theme and upload the zip file from the admin interface.
 
@@ -182,13 +182,13 @@ If you wish to modify the theme directly from the filesystem, follow these steps
 
 2. Update the theme assets, stylesheets, scripts and templates from the path.
   ```
-  public/vinsol_spree_themes/<theme_name>/
+  public/spree_themes/<theme_name>/
   ```
 
   or
 
   ```
-  public/vinsol_spree_themes/current/
+  public/spree_themes/current/
   ```
 
 3. If application is running, reload the store page and you will see the changes on the browser.
@@ -227,7 +227,7 @@ Admin can download the theme in the zip format after modifying it. While uploadi
 
 3. For Capistrano: Add the following path to the shared linked dir in deploy.rb file.
   ```
-  set :linked_dirs, %w( public/vinsol_spree_themes )
+  set :linked_dirs, %w( public/spree_themes )
   ```
 
 
@@ -259,7 +259,7 @@ When testing your applications integration with this extension you may use it's 
 Simply add this require statement to your spec_helper:
 
 ```ruby
-require 'vinsol_spree_themes/factories'
+require 'spree_themes/factories'
 ```
 
 
@@ -291,6 +291,6 @@ If you'd like to contribute, please follow the below steps:-
 Credits
 -------
 
-[![vinsol.com: Ruby on Rails, iOS and Android developers](http://vinsol.com/vin_logo.png "Ruby on Rails, iOS and Android developers")](http://vinsol.com)
+[![zgc.com: Ruby on Rails, iOS and Android developers](http://zgc.com/vin_logo.png "Ruby on Rails, iOS and Android developers")](http://zgc.com)
 
-Copyright (c) 2017 [vinsol.com](http://vinsol.com "Ruby on Rails, iOS and Android developers"), released under the New MIT License
+Copyright (c) 2017 [zgc.com](http://zgc.com "Ruby on Rails, iOS and Android developers"), released under the New MIT License
