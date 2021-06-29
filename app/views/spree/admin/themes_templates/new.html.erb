@@ -1,0 +1,56 @@
+<% content_for :page_title do %>
+  <%= link_to Spree.t(:templates), admin_theme_templates_path(@theme) %> /
+  <%= Spree.t(:new_template) %>
+<% end %>
+
+<% content_for :head do %>
+  <%= javascript_include_tag 'spree/backend/editor' %>
+  <%= stylesheet_link_tag 'spree/backend/editor' %>
+<% end %>
+
+<div data-hook="admin_theme_form_header">
+  <%= render partial: 'spree/admin/shared/error_messages', locals: { target: @theme } %>
+</div>
+
+<%= form_for @template, url: admin_theme_templates_path(@theme, @template), method: :post, html: { multipart: true } do |f| %>
+  <fieldset>
+
+    <div class="row">
+      <div class="col-md-8">
+        <div data-hook="admin_template_form_name">
+          <%= f.label :name, Spree.t(:name) %>
+          <%= f.text_field :name, class: 'form-control' %>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8">
+        <div data-hook="admin_template_form_path">
+          <%= f.label :path, Spree.t(:path) %>
+          <%= f.text_field :path, class: 'form-control' %>
+          <small><%= "(path will be appended to <b>public/themes/#{ @theme.name }/</b>)".html_safe %></small>
+        </div>
+      </div>
+    </div>
+
+    <div data-hook="admin_template_form_fields">
+      <div class="row">
+        <div class="col-md-8">
+          <div data-hook="admin_template_form_body">
+            <%= f.label :body, Spree.t(:body) %>
+            <%= f.text_area :body, class: 'form-control body', rows: '20' %>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-actions" data-hook="buttons">
+      <%= button Spree.t('actions.update'), 'refresh', 'submit', { class: 'btn-success', data: { disable_with: "#{ Spree.t(:saving) }..." }} %>
+      <span class="or"><%= Spree.t(:or) %></span>
+      <%= button_link_to Spree.t('actions.cancel'), admin_theme_templates_path(@theme), icon: 'delete' %>
+    </div>
+  </fieldset>
+<% end %>
+
+<%= javascript_include_tag 'spree/backend/main.js' %>

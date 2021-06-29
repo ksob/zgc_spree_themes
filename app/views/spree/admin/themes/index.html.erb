@@ -1,0 +1,50 @@
+<% content_for :page_title do %>
+  <%= Spree.t(:themes) %>
+  <span class="badge"><%= @themes.size %></span>
+<% end %>
+
+
+<!-- this error partial should only be called when uploading the theme. -->
+<% unless @theme.persisted? %>
+  <div data-hook="admin_theme_upload_form_header">
+    <%= render partial: 'spree/admin/shared/error_messages', locals: { target: @theme } %>
+  </div>
+<% end %>
+
+<% content_for :table_filter_title do %>
+  <%= Spree.t(:search) %>
+<% end %>
+
+<% content_for :table_filter do %>
+  <div data-hook="admin_theme_index_search">
+    <%= search_form_for [:admin, @search], url: admin_themes_path do |f| %>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <%= f.label Spree.t(:name) %>
+            <%= f.text_field :name_cont, class: "form-control js-quick-search-target" %>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <%= label_tag Spree.t(:state) %>
+            <%= f.select :state_eq, Spree::Theme.state_machines[:state].states.map { |state| [Spree.t("theme_states.#{ state.name }"), state.value] }, { include_blank: true }, class: 'select2 js-filterable' %>
+          </div>
+        </div>
+      </div>
+
+      <div data-hook="admin_users_index_search_buttons" class="form-actions">
+        <%= button Spree.t(:search), 'search' %>
+      </div>
+    <% end %>
+  </div>
+<% end %>
+
+<div class="theme-row row">
+  <%= render partial: 'upload' %>
+  <div class="file-visible-xs visible-xs"></div>
+  <%= render partial: 'themes' %>
+</div>
+
+<%= javascript_include_tag 'spree/backend/theme.js' %>

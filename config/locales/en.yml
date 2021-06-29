@@ -1,0 +1,52 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  spree:
+    themes: Themes
+    vinsol_spree_themes: Vinsol Spree Theme
+    templates: Templates
+    path: Path
+    format: Format
+    handler: Handler
+    body: Body
+    name: Name
+    state: Theme State
+    theme_states:
+      compiled: Compiled
+      drafted: Drafted
+      published: Published
+
+    actions:
+      themes: Themes
+      upload: Upload
+      compiled: Compile
+      published: Publish
+      view_templates: Templates
+      new_template: New Template
+      download: Download
+      preview: Preview
+
+    models:
+      theme:
+        minimum_active_error: Atleast one theme should be published.
+        no_destory_error: Published theme cannot be removed.
+
+    flash:
+      admin:
+        themes:
+          upload:
+            success: "Theme %{name} successfully uploaded."
+            failure: "Something went wrong, theme could not be uploaded."
+          state_change:
+            success: "Theme %{name} successfully %{state}."
+            failure: "Something went wrong, theme %{name} could not be %{state} due to the following reason:- %{errors}"
+          destroy:
+            success: "Theme %{name} successfully removed."
+            failure: "Something went wrong, theme %{name} could not be removed due to following reasons:- %{errors}"
+          download:
+            failure: "Something went wrong, theme %{name} could not be downloaded due to following reason:- %{errors}"
+
+    warnings:
+      update_metainfo: 'Make sure you update the meta info details in file meta_info.yml once the theme is updated. You will need to download the theme and reupload it.'
+      preview_mode_message: Preview Mode
