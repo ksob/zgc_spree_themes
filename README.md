@@ -1,11 +1,11 @@
-zgcSpreeThemes
+ZGCSpreeThemes
 ==================
 
 This extension allows the admin to upload new spree store themes from backend. This extension provides an interface where admin can manage all the themes by editing them, deleting old themes and publishing theme to store for the users.
 
 Admin can even preview the theme after modifying it from the backend before publishing it to the users.
 
-Try Spree Themes for Spree 3-4 with direct deployment on Heroku:
+Try Spree Themes for Spree 4-2 with direct deployment on Heroku:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-themes-new)
 
@@ -17,42 +17,14 @@ Try Spree Themes with direct deployment on Heroku:
 
 | Theme Name      | Deploy Button |   Theme Download Link |
 | --------------- | ------------- | --------------------- |
-| Big Shop        | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-bigshop)   | https://github.com/zgc-spree-contrib/theme-BigShop/archive/3-3-stable.zip      |
-| Classic White   | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-classic-white)   | https://github.com/zgc-spree-contrib/theme-ClassicWhite/archive/3-3-bump.zip |
-| Lattice         | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-lattice)   | https://github.com/zgc-spree-contrib/theme-LatticeTheme/archive/3-3-stable.zip |
-| Crown           | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-crown)     | https://github.com/zgc-spree-contrib/theme-CrownTheme/archive/3-3-bump.zip   |
-| Online Store    | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-online)    | https://github.com/zgc-spree-contrib/theme-OnlineStore/archive/3-3-bump.zip  |
-| Unite           | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-unite)     | https://github.com/zgc-spree-contrib/theme-Unite/archive/3-3-bump.zip        |
-| Matrix          | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-matrix)    | https://github.com/zgc-spree-contrib/theme-Matrix/archive/3-3-bump.zip       |
-| Crown Theme 2    | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-crown-2)   | https://github.com/zgc-spree-contrib/theme-CrownTheme-2/archive/3-3-bump.zip |
-| Shopkeeper Theme | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-shopkeeper) | https://github.com/zgc-spree-contrib/theme-Shopkeeper/archive/3-3-bump.zip |
-| Scrollex Theme   | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-scrollex)   | https://github.com/zgc-spree-contrib/theme-ScrollexTheme/archive/3-3-bump.zip |
-| EStore Theme     | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-theme-estore)     | https://github.com/zgc-spree-contrib/theme-EStore/archive/3-3-stable.zip |
-
+| ZGC        | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/
 
 ### Download Sample Themes:
 
-For SPREE 3.2
-
-https://github.com/zgc-spree-contrib/theme-BigShop/archive/3-2-stable.zip
-
-https://github.com/zgc-spree-contrib/theme-ClassicWhite/archive/3-2-stable.zip
-
-https://github.com/zgc-spree-contrib/theme-OnlineStore/archive/3-2-stable.zip
-
-https://github.com/zgc-spree-contrib/theme-CrownTheme/archive/3-2-stable.zip
-
-https://github.com/zgc-spree-contrib/theme-LatticeTheme/archive/3-2-stable.zip
-
-https://github.com/zgc-spree-contrib/theme-Matrix/archive/3-2-stable.zip
-
-https://github.com/zgc-spree-contrib/theme-Unite/archive/3-2-stable.zip
-
-https://github.com/zgc-spree-contrib/theme-CrownTheme-2/archive/3-2-stable.zip
 
 ## Requirements
 
-This extension currently supports Ruby 2.4.2, Rails 5.1 and Spree 3.4.
+This extension currently supports Ruby 2.4.2, Rails 5.1 and Spree 4.2.
 
 
 ## Features
@@ -71,23 +43,12 @@ Some of the current functionalities are:-
 
 1. Add this extension to your Gemfile:
 
-For SPREE 3.4
+For SPREE 4.2
 
   ```ruby
-  gem 'spree_themes', github: 'zgc-spree-contrib/spree_themes', branch: 'master'
+  gem 'spree_themes', github: 'razisha/spree_themes', branch: 'master'
   ```
 
-For SPREE 3.3
-
-  ```ruby
-  gem 'spree_themes', github: 'zgc-spree-contrib/spree_themes', branch: '3-3-stable'
-  ```
-
-For SPREE 3.2
-
-  ```ruby
-  gem 'spree_themes', github: 'zgc-spree-contrib/spree_themes', branch: '3-2-stable'
-  ```
 
   *Note:- Add this gem at the end of your gemfile as it has some sprocket-rails dependency and needs to be loaded after all gems are loaded.*
 

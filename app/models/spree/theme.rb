@@ -9,16 +9,13 @@ module Spree
     CURRENT_THEME_PATH = File.join(THEMES_PATH, 'current')
     ASSET_CACHE_PATH = File.join(Rails.root, 'tmp', 'cache')
 
-    has_attached_file :template_file, storage: :filesystem,
-                                      path: 'public/system/spree/themes/:filename'
+    has_attached_file :template_file, storage: :filesystem, path: 'public/system/spree/themes/:filename'
 
     ## VALIDATIONS ##
-    validates_attachment :template_file, presence: true,
-                                         content_type: { content_type: TEMPLATE_FILE_CONTENT_TYPE }
+    validates_attachment :template_file, presence: true, content_type: { content_type: TEMPLATE_FILE_CONTENT_TYPE }
     do_not_validate_attachment_file_type :template_file
 
-    validates :name, presence: true,
-                     uniqueness: { case_sensitive: false }
+    validates :name, presence: true, uniqueness: { case_sensitive: false }
     validates :state, inclusion: { in: STATES }
 
     # FIX_ME_PG:- check for atleast one published theme.
