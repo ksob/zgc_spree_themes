@@ -2,7 +2,7 @@ module Spree
   class ThemesTemplate < Spree::Base
 
     DEFAULT_LOCALE = 'en'
-    DEFAULT_PATH = File.join('public', 'spree_themes')
+    DEFAULT_PATH = File.join('public', 'zgc_spree_themes')
     ASSETS_FILE_EXTENSIONS = ['.js', '.css']
 
     # this attr attribute is used when templates are created from admin end.

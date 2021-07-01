@@ -2,7 +2,7 @@ require 'zip'
 
 class ZipFileExtractor
 
-  OUTPUT_PATH = File.join('public', 'spree_themes')
+  OUTPUT_PATH = File.join('public', 'zgc_spree_themes')
   IGNORED_FILES_REGEX = /\/(\.|__)/
   VIDEO_FILE_REGEX = /mp4/
 

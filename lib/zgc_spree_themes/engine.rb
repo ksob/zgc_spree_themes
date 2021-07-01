@@ -1,8 +1,8 @@
-module SpreeThemes
+module ZgcSpreeThemes
   class Engine < Rails::Engine
     require 'spree/core'
     isolate_namespace Spree
-    engine_name 'spree_themes'
+    engine_name 'zgc_spree_themes'
 
     # use rspec for tests
     config.generators do |g|

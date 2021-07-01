@@ -2,7 +2,7 @@ require 'zip'
 
 class ZipFileBuilder
 
-  THEMES_PATH = File.join('public', 'spree_themes')
+  THEMES_PATH = File.join('public', 'zgc_spree_themes')
   INVALID_DIRECTORIES = ['.', '..', 'precompiled_assets']
 
   attr_reader :theme, :entries, :input_path, :output_path, :zip, :name

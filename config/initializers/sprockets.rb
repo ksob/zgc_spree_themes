@@ -1,10 +1,10 @@
 module Sprockets
   class Railtie < ::Rails::Railtie
 
-    THEME_PUBLIC_ASSET_DIRECTORY = 'spree_theme'
+    THEME_PUBLIC_ASSET_DIRECTORY = 'zgc_spree_theme'
     PUBLIC_THEME_PATH = File.join('assets', THEME_PUBLIC_ASSET_DIRECTORY)
-    PREVIEW_THEME_PUBLIC_ASSET_DIRECTORY = 'preview_spree_theme'
-    THEME_PUBLIC_ASSET_DIRECTORY_REGEX = /spree_theme/
+    PREVIEW_THEME_PUBLIC_ASSET_DIRECTORY = 'preview_zgc_spree_theme'
+    THEME_PUBLIC_ASSET_DIRECTORY_REGEX = /zgc_spree_theme/
 
     def self.build_manifest(app)
       config = app.config

@@ -1,7 +1,7 @@
-module SpreeThemes
+module ZgcSpreeThemes
   module_function
 
-  # Returns the version of the currently loaded SpreeThemes as a
+  # Returns the version of the currently loaded ZgcSpreeThemes as a
   # <tt>Gem::Version</tt>.
   def version
     Gem::Version.new VERSION::STRING

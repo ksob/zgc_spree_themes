@@ -4,7 +4,7 @@
 en:
   spree:
     themes: Themes
-    spree_themes: Spree Theme
+    vinsol_spree_themes: ZGC Spree Theme
     templates: Templates
     path: Path
     format: Format

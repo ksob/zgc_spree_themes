@@ -6,8 +6,8 @@ require 'spree_themes/version'
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_themes'
-  s.version     = SpreeThemes.version
+  s.name        = 'zgc_spree_themes'
+  s.version     = ZgcSpreeThemes.version
   s.summary     = 'This extension creates a flexible system where admin can upload, modify the themes and publish it to spree store.'
   s.description = 'This extension provides an interface for the admin to upload new themes, publish it to the spree store, modify the theme layout accordingly and later download it.'
   s.required_ruby_version = '>= 2.2.7'

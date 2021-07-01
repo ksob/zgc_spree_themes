@@ -4,7 +4,7 @@ Spree::BaseHelper.class_eval do
   INVALID_DIRECTORIES = ['.', '..', 'precompiled_assets', 'images', 'fonts']
 
   def snapshot_path(theme)
-    File.join('/spree_themes', theme.name, DEFAULT_THEME_THUMBNAIL_NAME)
+    File.join('/zgc_spree_themes', theme.name, DEFAULT_THEME_THUMBNAIL_NAME)
   end
 
   def sorted_themes(themes)
