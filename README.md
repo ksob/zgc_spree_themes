@@ -9,7 +9,7 @@ Try Spree Themes for Spree 4-2 with direct deployment on Heroku:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zgc-spree-contrib/spree-demo-heroku/tree/spree-themes-new)
 
-### Steps to Publish a Theme.
+### Steps to Publish a Theme. 
 Go to - https://github.com/zgc-spree-contrib/spree_themes/wiki/Steps-to-Publish-a-Theme
 
 
